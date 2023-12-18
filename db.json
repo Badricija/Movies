@@ -1,0 +1,157 @@
+{
+  "ghibli_movies": [
+    {
+      "id": 1,
+      "title": "My Neighbor Totoro",
+      "director": "Hayao Miyazaki",
+      "release_year": 1988,
+      "genre": "Animation",
+      "rating": 8.2,
+      "main_character": "Totoro",
+      "description": "Two young sisters move to the countryside and encounter magical creatures.",
+      "comments": [
+        {
+          "id": 1,
+          "movie_id": 1,
+          "content": "This movie is magical!"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Spirited Away",
+      "director": "Hayao Miyazaki",
+      "release_year": 2001,
+      "genre": "Animation",
+      "rating": 8.6,
+      "main_character": "Chihiro",
+      "description": "A young girl navigates a mysterious and magical world to rescue her parents.",
+      "comments": [
+        {
+          "id": 2,
+          "movie_id": 2,
+          "content": "This movie has delicious food animations!"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Princess Mononoke",
+      "director": "Hayao Miyazaki",
+      "release_year": 1997,
+      "genre": "Animation",
+      "rating": 8.4,
+      "main_character": "Ashitaka",
+      "description": "A prince becomes involved in a struggle between industrial humans and forest gods.",
+      "comments": [
+        {
+          "id": 3,
+          "movie_id": 3,
+          "content": "This movie is full with fights!"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Howl's Moving Castle",
+      "director": "Hayao Miyazaki",
+      "release_year": 2004,
+      "genre": "Animation",
+      "rating": 8.2,
+      "main_character": "Howl",
+      "description": "A young woman is cursed and seeks refuge in a magical moving castle.",
+      "comments": [
+        {
+          "id": 4,
+          "movie_id": 4,
+          "content": "This movie has notes agout war and magic!"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Kiki's Delivery Service",
+      "director": "Hayao Miyazaki",
+      "release_year": 1989,
+      "genre": "Animation",
+      "rating": 7.9,
+      "main_character": "Kiki",
+      "description": "A young witch sets up a delivery service in a new town.",
+      "comments": [
+        {
+          "id": 4,
+          "movie_id": 4,
+          "content": "A young witch saves city!"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Castle in the Sky",
+      "director": "Hayao Miyazaki",
+      "release_year": 1986,
+      "genre": "Animation",
+      "rating": 8,
+      "main_character": "Pazu",
+      "description": "Two orphans search for a legendary floating castle.",
+      "comments": [
+        {
+          "id": 6,
+          "movie_id": 6,
+          "content": "Sometimes it's better to leave treasures hidden"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "The Wind Rises",
+      "director": "Hayao Miyazaki",
+      "release_year": 2013,
+      "genre": "Animation",
+      "rating": 7.8,
+      "main_character": "Jiro Horikoshi",
+      "description": "An aviation engineer pursues his passion despite historical challenges.",
+      "comments": [
+        {
+          "id": 7,
+          "movie_id": 7,
+          "content": "Planes and love!"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Ponyo",
+      "director": "Hayao Miyazaki",
+      "release_year": 2008,
+      "genre": "Animation",
+      "rating": 7.7,
+      "main_character": "Ponyo",
+      "description": "A fish princess wants to become a human and befriends a young boy.",
+      "comments": [
+        {
+          "id": 8,
+          "movie_id": 8,
+          "content": "Little fish becomes a human kid!"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "The Cat Returns",
+      "director": "Hiroyuki Morita",
+      "release_year": 2002,
+      "genre": "Animation",
+      "rating": 7.2,
+      "main_character": "Haru",
+      "description": "A girl saves a cat, who turns out to be the prince of the Cat Kingdom.",
+      "comments": [
+        {
+          "id": 9,
+          "movie_id": 9,
+          "content": "Even cats have their kingdom!"
+        }
+      ]
+    }
+  ]
+}

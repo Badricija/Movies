@@ -1,31 +1,29 @@
-import { Link, createBrowserRouter } from "react-router-dom";
-import Aboutplanets from "./aboutplanets";
-import Home from "./home";
-import Planets from "./planets";
-
+import { createBrowserRouter } from "react-router-dom";
+import About from "./about/about";
+import Movies from "./movies/movies";
+import Authors from "./authors/movieauthors";
+import MainPage from "./main page/mainpage";
+import AboutMovie from "./about movies/aboutmovies";
 const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <><div className='Heading'>Interesting Planets</div>
-      <Link to="/home" className='Heading-options'>Home</Link>
-      <br></br>
-      <Link to="/planets" className='Heading-options'>Planets</Link>
-      <br></br>
-      <Link to ="/about" className='Heading-options'>About</Link></>
-    },
-    {
-      path: "/home",
-      element: <Home />
-    },
-    {
-      path: "/planets",
-      element: <>
-       <Planets />
-      </>
-    },
-    {
-      path: "/about",
-      element: <Aboutplanets />
-    }
-  ]);
+  {
+    path: "/",
+    element: <MainPage />
+  },
+  {
+    path: "/about",
+    element: <About />
+  },
+  {
+    path: "/movies/aboutmovie/:id",
+    element: <AboutMovie />
+  },
+  {
+    path: "/movies",
+    element: <Movies />
+  },
+  {
+    path: "/authors",
+    element: <Authors />
+  }
+]);
 export default router;  
