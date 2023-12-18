@@ -1,0 +1,14 @@
+.button {
+    background-color: #693633;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 5px;
+    color: #EDDEC1;
+    font-family: "DM Serif Display", serif;
+
+
+    &:hover {
+        background-color: #973F07;
+    }
+}
